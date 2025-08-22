@@ -16,15 +16,15 @@
     --tridactyl-of-bg: var(--tridactyl-bg);
 
     --tridactyl-hintspan-fg: var(--tridactyl-fg);
-    --tridactyl-hintspan-bg: blue;
+    --tridactyl-hintspan-bg: var(--tridactyl-bg);
 
-    --tridactyl-hint-active-fg: purple;
-    --tridactyl-hint-active-bg: green;
+    --tridactyl-hint-active-fg: var(--tridactyl-container-color-purple);
+    --tridactyl-hint-active-bg: var(--tridactyl-container-color-green);
 
     /*url style*/
 
     --tridactyl-url-text-decoration: none;
-    --tridactyl-url-fg: green;
+    --tridactyl-url-fg: var(--tridactyl-container-color-green);
     --tridactyl-url-bg: var(--tridactyl-bg);
     --tridactyl-url-cursor: pointer;
 
@@ -53,11 +53,11 @@
 }
 
 :root.TridactylOwnNamespace a {
-    color: blue;
+    color: var(--tridactyl-container-color-green);
 }
 
 :root.TridactylOwnNamespace code {
-    background-color: #2a333c;
+    background-color: var(--tridactyl-bg);
     padding: 3px 7px;
 }
 
