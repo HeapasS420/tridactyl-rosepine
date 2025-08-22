@@ -12,14 +12,21 @@
 
     --tridactyl-header-font-size: 16px;
 
-    --tridactyl-of-fg: #21202e;
-    --tridactyl-of-bg: #f6c177;
+    --tridactyl-of-fg: var(--tridactyl-fb);
+    --tridactyl-of-bg: var(--tridactyl-bg);
 
-    --tridactyl-hintspan-fg: #e0def4;
-    --tridactyl-hintspan-bg: #31748f;
+    --tridactyl-hintspan-fg: var(--tridactyl-fg);
+    --tridactyl-hintspan-bg: blue;
 
-    --tridactyl-hint-active-fg: #c4a7e7;
-    --tridactyl-hint-active-bg: #9ccfd8;
+    --tridactyl-hint-active-fg: purple;
+    --tridactyl-hint-active-bg: green;
+    /*url style*/
+
+    --tridactyl-url-text-decoration: none;
+    --tridactyl-url-fg: green;
+    --tridactyl-url-bg: var(--tridactyl-bg);
+    --tridactyl-url-cursor: pointer;
+
     --tridactyl-hint-active-outline: 1px solid #000;
 
     --tridactyl-hint-bg: rgba(13, 31, 54, 0.25);
@@ -29,102 +36,13 @@
     --tridactyl-cmplt-option-height: 1.9em;
 
     --tridactyl-border-radius: 4px;
-}
 
-:root.TridactylOwnNamespace {
-    scrollbar-width: thin;
-}
-
-:root.TridactylOwnNamespace a {
-    color: #31748f;
-}
-
-:root.TridactylOwnNamespace code {
-    background-color: #403d52;
-    padding: 3px 7px;
-}
-
-:root #command-line-holder {
-    order: 1;
-}
-
-:root #command-line-holder,
-:root #tridactyl-input {
-    border-radius: var(--tridactyl-border-radius) !important;
-}
-
-:root #tridactyl-colon::before {
-    content: "";
-}
-
-:root #tridactyl-input {
-    width: 96%;
-    padding: 1rem;
-}
-
-:root #completions table {
-    font-weight: 200;
-    table-layout: fixed;
-    padding: 1rem;
-    padding-top: 0;
-}
-
-:root #completions > div {
-    max-height: calc(20 * var(--tridactyl-cmplt-option-height));
-    min-height: calc(10 * var(--tridactyl-cmplt-option-height));
-}
-
-:root #completions {
-    border: none !important;
-    font-family: var(--tridactyl-font-family);
-    order: 2;
-    margin-top: 10px;
-    border-radius: var(--tridactyl-border-radius);
-}
-
-:root #completions .HistoryCompletionSource table {
-    width: 100%;
-    border-spacing: 0;
-    table-layout: fixed;
-}
-
-:root #completions .BufferCompletionSource table {
-    width: unset;
-    font-size: unset;
-    border-spacing: unset;
-    table-layout: unset;
-}
-
-:root #completions table tr .title {
-    width: 50%;
-}
-
-:root #completions tr .documentation {
-    white-space: nowrap;
-    overflow: auto;
-    text-overflow: ellipsis;
-}
-
-:root #completions .sectionHeader {
-    background: transparent;
-    padding: 1rem 1rem 0.4rem !important;
-}
-
-:root #cmdline_iframe {
-    position: fixed !important;
-    bottom: unset;
-    top: 25% !important;
-    left: 10% !important;
-    z-index: 2147483647 !important;
-    width: 80% !important;
-    filter: drop-shadow(0px 0px 20px #000000) !important;
-    color-scheme: only light; /* Prevent Firefox from adding a white background on dark-mode sites */
-}
-
-:root .TridactylStatusIndicator {
-    position: fixed !important;
-    bottom: 10px !important;
-    right: 10px !important;
-    font-weight: 200 !important;
-    padding: 5px !important;
+    --tridactyl-container-color-blue: #31748f;
+    --tridactyl-container-color-turquoise: #9ccfd8;
+    --tridactyl-container-color-green: #9ccfd8;
+    --tridactyl-container-color-yellow: #f6c177;
+    --tridactyl-container-color-orange: #ebbcba;
+    --tridactyl-container-color-red: #eb6f92;
+    --tridactyl-container-color-pink: #c4a7e7;
+    --tridactyl-container-color-purple: #c4a7e7;
 }
