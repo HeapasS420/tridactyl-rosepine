@@ -2,7 +2,16 @@
     --tridactyl-font-family: "Fira Code";
     --tridactyl-bg: #26233a;
     --tridactyl-fg: #e0def4;
-
+    
+    --tridactyl-container-color-blue: #31748f;
+    --tridactyl-container-color-turquoise: #9ccfd8;
+    --tridactyl-container-color-green: #9ccfd8;
+    --tridactyl-container-color-yellow: #f6c177;
+    --tridactyl-container-color-orange: #ebbcba;
+    --tridactyl-container-color-red: #eb6f92;
+    --tridactyl-container-color-pink: #c4a7e7;
+    --tridactyl-container-color-purple: #c4a7e7;
+    
     --tridactyl-status-font-family: var(--tridactyl-font-family);
     --tridactyl-status-font-size: var(--tridactyl-small-font-size);
     --tridactyl-status-bg: var(--tridactyl-bg);
@@ -37,15 +46,6 @@
     --tridactyl-cmplt-option-height: 1.9em;
 
     --tridactyl-border-radius: 4px;
-
-    --tridactyl-container-color-blue: #31748f;
-    --tridactyl-container-color-turquoise: #9ccfd8;
-    --tridactyl-container-color-green: #9ccfd8;
-    --tridactyl-container-color-yellow: #f6c177;
-    --tridactyl-container-color-orange: #ebbcba;
-    --tridactyl-container-color-red: #eb6f92;
-    --tridactyl-container-color-pink: #c4a7e7;
-    --tridactyl-container-color-purple: #c4a7e7;
 }
 
 :root.TridactylOwnNamespace {
