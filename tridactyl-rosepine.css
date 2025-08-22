@@ -1,13 +1,14 @@
 :root {
-    --tridactyl-font-family: "Fira Code", sans-serif;
+    --tridactyl-font-family: "Fira Code";
     --tridactyl-bg: #26233a;
     --tridactyl-fg: #e0def4;
 
-    --tridactyl-status-font-size: 12px;
-    --tridactyl-status-font-family: "Fira Code";
-    --tridactyl-status-font-bg: var(--tridactyl-cmdl-bg);
-    --tridactyl-status-border: 2px solid black;
-    --tridactyl-status-border-radius: 4px;
+    --tridactyl-status-font-family: var(--tridactyl-font-family);
+    --tridactyl-status-font-size: var(--tridactyl-small-font-size);
+    --tridactyl-status-bg: var(--tridactyl-bg);
+    --tridactyl-status-fg: var(--tridactyl-fg);
+    --tridactyl-status-border: 1px var(--tridactyl-bg) solid;
+    --tridactyl-status-border-radius: 2px;
 
     --tridactyl-header-font-size: 16px;
 
