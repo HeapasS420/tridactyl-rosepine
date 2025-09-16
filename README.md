@@ -1,2 +1,2 @@
 # tridactyl-rosepine
-my theme for [tridactyl](https://github.com/tridactyl/tridactyl) using rosepine colors
+my theme for [tridactyl](https://github.com/tridactyl/tridactyl) using [rosepine](https://rosepinetheme.com/) colors
